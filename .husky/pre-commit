@@ -6,4 +6,6 @@ npm run lint:ts
 npm run lint:scss
 npm run test:unit
 npm run storybook:build
-npm run test:ui
+
+# запускать после npm run storybook и запуска doker.desktop 
+# npm run test:ui

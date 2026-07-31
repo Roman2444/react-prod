@@ -1,9 +1,10 @@
 name: linting, testing, building
 on:
   push:
-    branches: [ main ]
+  # раскоментить, если нужно запускать jobs
+    # branches: [ main ]
   pull_request:
-    branches: [ main ]
+    # branches: [ main ]
 jobs:
   pipeline:
     runs-on: ubuntu-latest
