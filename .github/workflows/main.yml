@@ -2,9 +2,9 @@ name: linting, testing, building
 on:
   push:
   # поменять на main (она сейчас основная), если нужно запускать jobs
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   pipeline:
     runs-on: ubuntu-latest
