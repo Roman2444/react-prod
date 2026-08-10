@@ -19,7 +19,9 @@
       "img": "https://orbitsoft.com/ru/blog/wp-content/uploads/JavaScript-Symbol.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -107,13 +109,15 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hKU5_Zz9eJ7oS76hqqsYX_n5Biq6bNsAqIN6k5-W6A&s=10"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hKU5_Zz9eJ7oS76hqqsYX_n5Biq6bNsAqIN6k5-W6A&s=10"
     }
   ],
   "profile": {
@@ -124,6 +128,6 @@
     "country": "Belarus",
     "city": "Moscow",
     "username": "admin213",
-    "avatar": "https://yt3.ggpht.com/ytc/AAUvwngFzM_Rf6MNwOnFcuphoj93k7VFjlIrj-kSMxbh=s900-c-k-c0x00ffffff-no-rj"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR66Z47_AmyUVUsczzKcrGsGE-AcfNhq_WqaFEy5y89ZQ&s"
   }
 }
