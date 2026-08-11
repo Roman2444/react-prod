@@ -4,7 +4,7 @@ import avatar from 'shared/assets/tests/storybook.jpg';
 import { CommentCard } from './CommentCard';
 
 export default {
-    title: 'shared/CommentCard',
+    title: 'entities/Comment/CommentCard',
     component: CommentCard,
     argTypes: {
         backgroundColor: { control: 'color' },

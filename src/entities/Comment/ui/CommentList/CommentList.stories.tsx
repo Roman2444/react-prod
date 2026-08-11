@@ -4,7 +4,7 @@ import avatar from 'shared/assets/tests/storybook.jpg';
 import { CommentList } from './CommentList';
 
 export default {
-    title: 'shared/CommentList',
+    title: 'entities/Comment/CommentList',
     component: CommentList,
     argTypes: {
         backgroundColor: { control: 'color' },
@@ -27,4 +27,10 @@ Normal.args = {
             user: { id: '2', username: 'user', avatar },
         },
     ],
+};
+
+export const Loading = Template.bind({});
+Loading.args = {
+    comments: [],
+    isLoading: true,
 };
