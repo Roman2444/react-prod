@@ -3,7 +3,6 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { ProfileCard } from 'entities/Profile';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
-import avatar from 'shared/assets/tests/storybook.jpg';
 
 export default {
     title: 'entities/ProfileCard',
@@ -25,7 +24,7 @@ Primary.args = {
         first: 'asd',
         city: 'asf',
         currency: Currency.USD,
-        avatar,
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR66Z47_AmyUVUsczzKcrGsGE-AcfNhq_WqaFEy5y89ZQ&s',
     },
 };
 
