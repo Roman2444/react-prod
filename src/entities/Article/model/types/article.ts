@@ -33,7 +33,6 @@ export enum ArticleType {
     SCIENCE = 'SCIENCE',
     ECONOMICS = 'ECONOMICS'
 }
-
 export interface Article {
     id: string;
     title: string;
@@ -43,4 +42,9 @@ export interface Article {
     createdAt: string;
     type: ArticleType[];
     blocks: ArticleBlock[];
+}
+
+export enum ArticleView {
+    BIG = 'big',
+    SMALL = 'small'
 }
