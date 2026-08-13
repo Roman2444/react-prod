@@ -16,9 +16,10 @@
       "id": "1",
       "title": "Javascript news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://orbitsoft.com/ru/blog/wp-content/uploads/JavaScript-Symbol.png",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
+      "userId": "1",
       "type": [
         "IT"
       ],
@@ -150,12 +151,6 @@
       "userId": "2",
       "text": "asdasdasd",
       "id": "MVvGQoZ"
-    },
-    {
-      "articleId": "1",
-      "userId": "1",
-      "text": "мой коммент",
-      "id": "9cz8b5l"
     }
   ],
   "users": [
@@ -164,14 +159,14 @@
       "username": "admin",
       "password": "123",
       "role": "ADMIN",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hKU5_Zz9eJ7oS76hqqsYX_n5Biq6bNsAqIN6k5-W6A&s=10"
+      "avatar": "https://avatars.mds.yandex.net/get-zen_doc/3413519/pub_5ff887b2fe4e686f6ae6ba3f_5ff887d7f906b16872a69755/scale_1200"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hKU5_Zz9eJ7oS76hqqsYX_n5Biq6bNsAqIN6k5-W6A&s=10"
+      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
     }
   ],
   "profile": [
@@ -184,7 +179,7 @@
       "country": "Belarus",
       "city": "Moscow",
       "username": "admin213",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR66Z47_AmyUVUsczzKcrGsGE-AcfNhq_WqaFEy5y89ZQ&s"
+      "avatar": "https://avatars.mds.yandex.net/get-zen_doc/3413519/pub_5ff887b2fe4e686f6ae6ba3f_5ff887d7f906b16872a69755/scale_1200"
     },
     {
       "id": "2",

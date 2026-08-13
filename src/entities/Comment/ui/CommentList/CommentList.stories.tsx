@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import avatar from 'shared/assets/tests/storybook.jpg';
+
 import { CommentList } from './CommentList';
 
 export default {
@@ -18,13 +18,13 @@ Normal.args = {
     comments: [
         {
             id: '1',
-            text: 'Первый комментарий',
-            user: { id: '1', username: 'admin', avatar },
+            text: 'hello world',
+            user: { id: '1', username: 'Vasya' },
         },
         {
             id: '2',
-            text: 'Второй комментарий',
-            user: { id: '2', username: 'user', avatar },
+            text: 'Comment 2',
+            user: { id: '1', username: 'Petya' },
         },
     ],
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import avatar from 'shared/assets/tests/storybook.jpg';
+
 import { CommentCard } from './CommentCard';
 
 export default {
@@ -17,15 +17,17 @@ export const Normal = Template.bind({});
 Normal.args = {
     comment: {
         id: '1',
-        text: 'Текст комментария',
-        user: {
-            id: '1',
-            username: 'admin',
-            avatar,
-        },
+        text: 'hello world',
+        user: { id: '1', username: 'Vasya' },
     },
 };
+
 export const Loading = Template.bind({});
 Loading.args = {
+    comment: {
+        id: '1',
+        text: 'hello world',
+        user: { id: '1', username: 'Vasya' },
+    },
     isLoading: true,
 };
