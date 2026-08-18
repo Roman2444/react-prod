@@ -8,7 +8,7 @@ import avatar from 'shared/assets/tests/storybook.jpg';
 import ArticlesPage from './ArticlesPage';
 
 export default {
-    title: 'pages/ArticlesPage',
+    title: 'pages/Article/ArticlesPage',
     component: ArticlesPage,
     argTypes: {
         backgroundColor: { control: 'color' },
